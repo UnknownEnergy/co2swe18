@@ -15,6 +15,7 @@ import at.edu.c02.calculator.logic.CalculatorImpl;
 import at.edu.c02.calculator.logic.operations.Add;
 import at.edu.c02.calculator.logic.operations.DefaultOperationFactory;
 
+//Test
 public class CalculatorTest {
 
 	@Test

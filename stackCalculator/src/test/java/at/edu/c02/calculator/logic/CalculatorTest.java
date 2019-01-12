@@ -17,7 +17,22 @@ import at.edu.c02.calculator.logic.operations.DefaultOperationFactory;
 
 //Test
 public class CalculatorTest {
-	
+
+	@Test
+	public void testSimpleSqrtOperation() throws Exception {
+
+		// setup
+		Calculator calc = new CalculatorImpl(new DefaultOperationFactory());
+
+		//execute
+		calc.push(4);
+		double result = calc.perform(Operation.sqrt);
+
+		//verify
+		assertEquals(2, result, 0);
+
+	}
+
 	@Test
 	public void testSimpleModOperation() throws Exception {
 

@@ -8,8 +8,9 @@ public class Sqrt implements MathOperation{
 
 	@Override
 	public double calculate(double a, double b) throws CalculatorException {
+		//IGNORE b for now
 		// TODO Auto-generated method stub
-		return Math.sqrt(a+b);
+		return Math.sqrt(a);
 	}
 
 

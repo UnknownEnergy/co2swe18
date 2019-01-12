@@ -24,7 +24,7 @@ public class CalculatorTest {
 		// setup
 		Calculator calc = new CalculatorImpl(new DefaultOperationFactory());
 
-		//execute
+		// execute
 		calc.push(4);
 		double result = calc.perform(Operation.sqrt);
 

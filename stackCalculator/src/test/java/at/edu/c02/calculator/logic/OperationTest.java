@@ -9,6 +9,7 @@ import at.edu.c02.calculator.MathOperation;
 import at.edu.c02.calculator.logic.operations.Add;
 import at.edu.c02.calculator.logic.operations.Div;
 import at.edu.c02.calculator.logic.operations.Mul;
+import at.edu.c02.calculator.logic.operations.Sqrt;
 import at.edu.c02.calculator.logic.operations.Sub;
 
 public class OperationTest {
@@ -52,7 +53,7 @@ public class OperationTest {
 		assertEquals(2, result, 0.0001);
 	}
 	
-	// Dinus Test Method
+	// Dinus Test Method 
 	@Test
 	public void testSub() throws CalculatorException {
 		
@@ -65,5 +66,19 @@ public class OperationTest {
 		//verify
 		assertEquals(2, result, 0.0001);
 	}
+	
+	// Dinus Sqrt Method 
+		@Test
+		public void testSqrt() throws CalculatorException {
+			
+			// setup
+			MathOperation sqrt = new Sqrt();
+			
+			//execute
+			double result = sqrt.calculate(2, 2);
+			
+			//verify
+			assertEquals(2, result, 0.0001);
+		}
 	
 }

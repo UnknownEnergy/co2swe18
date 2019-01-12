@@ -7,6 +7,7 @@ import org.junit.Test;
 import at.edu.c02.calculator.CalculatorException;
 import at.edu.c02.calculator.MathOperation;
 import at.edu.c02.calculator.logic.operations.Add;
+import at.edu.c02.calculator.logic.operations.Div;
 import at.edu.c02.calculator.logic.operations.Mul;
 
 public class OperationTest {
@@ -32,6 +33,19 @@ public class OperationTest {
 		
 		//execute
 		double result = mul.calculate(1, 2);
+		
+		//verify
+		assertEquals(2, result, 0.0001);
+	}
+	
+	@Test
+	public void testDiv() throws CalculatorException {
+		
+		// setup
+		MathOperation div = new Div();
+		
+		//execute
+		double result = div.calculate(4, 2);
 		
 		//verify
 		assertEquals(2, result, 0.0001);

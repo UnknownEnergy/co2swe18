@@ -8,7 +8,9 @@ public class Mod implements MathOperation {
 	@Override
 	public double calculate(double a, double b) throws CalculatorException {
 		
-		return a%b;
+		double c = a % b;
+		
+		return c;
 	}
 
 }

@@ -53,7 +53,6 @@ public class OperationTest {
 	}
 	
 	// Dinus Test Method
-	
 	@Test
 	public void testSub() throws CalculatorException {
 		

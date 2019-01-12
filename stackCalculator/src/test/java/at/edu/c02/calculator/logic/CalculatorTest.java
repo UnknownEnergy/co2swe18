@@ -36,6 +36,7 @@ public class CalculatorTest {
 	@Test
 	public void testSimpleModOperation() throws Exception {
 
+		// 8===D
 		// setup
 		Calculator calc = new CalculatorImpl(new DefaultOperationFactory());
 

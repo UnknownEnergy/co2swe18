@@ -9,6 +9,7 @@ import at.edu.c02.calculator.MathOperation;
 import at.edu.c02.calculator.logic.operations.Add;
 import at.edu.c02.calculator.logic.operations.Div;
 import at.edu.c02.calculator.logic.operations.Mul;
+import at.edu.c02.calculator.logic.operations.Sub;
 
 public class OperationTest {
 
@@ -37,7 +38,7 @@ public class OperationTest {
 		//verify
 		assertEquals(2, result, 0.0001);
 	}
-	
+	//Kevins Test
 	@Test
 	public void testDiv() throws CalculatorException {
 		
@@ -46,6 +47,21 @@ public class OperationTest {
 		
 		//execute
 		double result = div.calculate(4, 2);
+		
+		//verify
+		assertEquals(2, result, 0.0001);
+	}
+	
+	// Dinus Test Method
+	
+	@Test
+	public void testSub() throws CalculatorException {
+		
+		// setup
+		MathOperation sub = new Sub();
+		
+		//execute
+		double result = sub.calculate(4, 2);
 		
 		//verify
 		assertEquals(2, result, 0.0001);

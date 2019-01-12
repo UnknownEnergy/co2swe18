@@ -7,6 +7,7 @@ import org.junit.Test;
 import at.edu.c02.calculator.CalculatorException;
 import at.edu.c02.calculator.MathOperation;
 import at.edu.c02.calculator.logic.operations.Add;
+import at.edu.c02.calculator.logic.operations.Mul;
 
 public class OperationTest {
 
@@ -23,6 +24,17 @@ public class OperationTest {
 		assertEquals(3, result, 0.0001);
 	}
 
-
+	@Test
+	public void testMul() throws CalculatorException {
+		
+		//setup
+		MathOperation mul = new Mul();
+		
+		//execute
+		double result = mul.calculate(1, 2);
+		
+		//verify
+		assertEquals(2, result, 0.0001);
+	}
 	
 }

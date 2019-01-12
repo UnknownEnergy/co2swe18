@@ -27,7 +27,7 @@ public class OperationTest {
 	@Test
 	public void testMul() throws CalculatorException {
 		
-		//setup
+		// setup
 		MathOperation mul = new Mul();
 		
 		//execute

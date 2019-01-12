@@ -21,7 +21,7 @@ public class CalculatorTest {
 	@Test
 	public void testSimpleAddOperation() throws Exception {
 
-		//setup
+		// setup
 		Calculator calc = new CalculatorImpl(new DefaultOperationFactory());
 
 		//execute

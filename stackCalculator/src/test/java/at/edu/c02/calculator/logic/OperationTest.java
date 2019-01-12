@@ -52,7 +52,7 @@ public class OperationTest {
 		assertEquals(2, result, 0.0001);
 	}
 	
-	// Dinus Test
+	// Dinus Test Method
 	
 	@Test
 	public void testSub() throws CalculatorException {

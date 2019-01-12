@@ -21,15 +21,15 @@ public class CalculatorTest {
 	@Test
 	public void testSimpleAddOperation() throws Exception {
 
-		// setup
+		//setup
 		Calculator calc = new CalculatorImpl(new DefaultOperationFactory());
 
-		// execute
+		//execute
 		calc.push(2.0);
 		calc.push(3);
 		double result = calc.perform(Operation.add);
 
-		// verify
+		//verify
 		assertEquals(5, result, 0);
 
 	}

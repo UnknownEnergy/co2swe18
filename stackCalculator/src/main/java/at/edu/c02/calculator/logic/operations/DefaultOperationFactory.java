@@ -18,8 +18,6 @@ public class DefaultOperationFactory implements OperationFactory {
 			return new Mul();
 		case mod:
 			return new Mod();
-		case sqrt:
-			return new Sqrt();
 		}
 
 		return null;

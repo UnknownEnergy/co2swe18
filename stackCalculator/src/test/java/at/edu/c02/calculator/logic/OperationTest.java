@@ -9,7 +9,6 @@ import at.edu.c02.calculator.MathOperation;
 import at.edu.c02.calculator.logic.operations.Add;
 import at.edu.c02.calculator.logic.operations.Div;
 import at.edu.c02.calculator.logic.operations.Mul;
-import at.edu.c02.calculator.logic.operations.Sqrt;
 import at.edu.c02.calculator.logic.operations.Sub;
 
 public class OperationTest {

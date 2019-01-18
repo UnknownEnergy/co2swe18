@@ -68,17 +68,17 @@ public class OperationTest {
 	}
 	
 	// Dinus Sqrt Method 
-		@Test
-		public void testSqrt() throws CalculatorException {
-			
-			// setup
-			MathOperation sqrt = new Sqrt();
-			
-			//execute
-			double result = sqrt.calculate(2, 2);
-			
-			//verify
-			assertEquals(2, result, 0.0001);
-		}
+//		@Test
+//		public void testSqrt() throws CalculatorException {
+//
+//			// setup
+//			MathOperation sqrt = new Sqrt();
+//
+//			//execute
+//			double result = sqrt.calculate(4, 2);
+//
+//			//verify
+//			assertEquals(2, result, 0.0001);
+//		}
 	
 }
